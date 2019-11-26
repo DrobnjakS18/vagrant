@@ -55,9 +55,9 @@ every node will actually provision with the same text.
 This is an easy mistake to make, and Vagrant cannot really protect against it,
 so the best we can do is mention it here.
 
-## Overwrite host locale in ssh session
+## Overwrite host local in ssh session
 
-Usually, host locale environment variables are passed to guest. It may cause
+Usually, host local environment variables are passed to guest. It may cause
 failures if the guest software do not support host locale. One possible solution
 is override locale in the `Vagrantfile`:
 
